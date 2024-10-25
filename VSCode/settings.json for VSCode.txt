@@ -1,0 +1,315 @@
+{
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "workbench.startupEditor": "none",
+    
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.intellisense.unimathsymbols.enabled": true,
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": true,
+    "latex-workshop.latex.autoBuild.interval": 300000,
+    "latex-workshop.latex.autoClean.run": "onFailed",
+    "latex-workshop.latex.clean.method": "glob",
+    "latex-workshop.latex.clean.subfolder.enabled": true,
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    "latex-workshop.view.autoFocus.enabled": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.view.pdf.zoom": "page-width",
+    "latex-workshop.view.pdf.trim": 0,
+    "latex-workshop.view.pdf.external.viewer.command": "okular",
+    "latex-workshop.view.pdf.external.viewer.args": [
+        "--unique",
+        "%PDF%"
+    ],
+    "latex-workshop.view.pdf.external.synctex.command": "okular",
+    "latex-workshop.view.pdf.external.synctex.args": [
+        "--noraise",
+        "--unique",
+        "%PDF%#src:%LINE%%TEX%"
+    ],
+   
+    "latex-workshop.latex.magic.args": [
+        "-synctex=1",
+        "-shell-escape",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+    ],
+    "latex-workshop.latex.magic.bib.args": [
+       
+        "%DOCFILE%"
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "pdflatexmk",
+            "command": "latexmk",
+            "args": [
+                "-pdflatex",
+                "-synctex=1",
+                "-shell-escape",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "xelatexmk",
+            "command": "latexmk",
+            "args": [
+                "-xelatex",
+                "-synctex=1",
+                "-shell-escape",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "lualatexmk",
+            "command": "latexmk",
+            "args": [
+                "-lualatex",
+                "-synctex=1",
+                "-shell-escape",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-shell-escape",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-shell-escape",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "lualatex",
+            "command": "lualatex",
+            "args": [
+                "-synctex=1",
+                "-shell-escape",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "biber",
+            "command": "biber",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {
+                "BIBINPUTS": "%OUTDIR%:"
+            }
+        },   
+         {
+            "name": "makeglossaries",
+            "command": "makeglossaries",
+            "args": [
+                "%DOCFILE%"
+            ]
+          },
+      
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "Latexmk (XeLaTeX)",
+            "tools": [
+                "xelatexmk"
+            ]
+        },
+        {
+            "name": "Latexmk (LuaLaTeX)",
+            "tools": [
+                "lualatexmk"
+            ]
+        },
+        {
+            "name": "Latexmk (PDFLaTeX)",
+            "tools": [
+                "pdflatexmk"
+            ]
+        },
+        {
+            "name": "XeLaTeX",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "LuaLaTeX",
+            "tools": [
+                "lualatex"
+            ]
+        },
+        {
+            "name": "PDFLaTeX",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "Biber",
+            "tools": [
+                "biber"
+            ]
+        },
+        {
+            "name": "BibTeX",
+            "tools": [
+                "bibtex"
+            ]
+        },
+        {
+            "name": "makeglossaries",
+            "tools": [
+                "makeglossaries"
+            ]
+        },
+        {
+            "name": "XeLaTeX ➞ Biber ➞ XeLaTeX × 2",
+            "tools": [
+                "xelatex",
+                "biber",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "LuaLaTeX ➞ Biber ➞ LuaLaTeX × 2",
+            "tools": [
+                "lualatex",
+                "biber",
+                "lualatex",
+                "lualatex"
+            ]
+        },
+        {
+            "name": "PDFLaTeX ➞ Biber ➞ PDFLaTeX × 2",
+            "tools": [
+                "pdflatex",
+                "biber",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "XeLaTeX ➞ BibTeX ➞ XeLaTeX × 2",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "LuaLaTeX ➞ BibTeX ➞ LuaLaTeX × 2",
+            "tools": [
+                "lualatex",
+                "bibtex",
+                "lualatex",
+                "lualatex"
+            ]
+        },
+        {
+            "name": "PDFLaTeX ➞ BibTeX ➞ PDFLaTeX × 2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "pdflatex, makeglossaries, pdflatex (2x)",
+            "tools": [
+               "pdflatex",
+                "makeglossaries",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+
+
+    ],
+    "latex-workshop.latexindent.args": [
+        "-c",
+        "%DIR%",
+        "%TMPFILE%",
+        "-y",
+        "defaultIndent: '%INDENT%', verbatimEnvironments:nameAsRegex:name: '\\w+code\\*?'"
+    ],
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.xdv",
+        "*.aux",
+        "*.bbl",
+        "*.bcf",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.nav",
+        "*.snm",
+        "*.vrb",
+        "*.run.xml",
+        "*.fdb_latexmk",
+        "*.synctex(busy)",
+        "*.synctex.gz(busy)",
+        "_minted-*/**",
+        "_minted-*/"
+    ],
+
+    //* LaTeX Utilities */
+    "latex-utilities.countWord.format": "${words} Words (${wordsBody} in Body)",
+    "latex-utilities.countWord.args": ["-merge", "%DOC%"],
+    "latex-utilities.formattedPaste.tableBooktabsStyle": true,
+    "latex-utilities.formattedPaste.image.template": "\\includegraphics[width=\\linewidth]{${imageFilePath}}",
+    "latex-utilities.tikzpreview.enabled": true,
+    "latex-utilities.tikzpreview.parseTeXFile": true,
+
+}
