@@ -1,0 +1,201 @@
+\contentsline {part}{I\hspace {1em}Getting Started with \LaTeX {}}{8}{part.1}%
+\contentsline {section}{\numberline {1}Introduction to \LaTeX {}}{8}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Why Use \LaTeX {}?}{8}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}When Should You Use \LaTeX ?}{9}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Challenges of Using \LaTeX {}}{9}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Comparison with Word Processors (MS Word vs. \LaTeX {})}{10}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Setting Up Your \LaTeX {} Environment}{12}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Installing \LaTeX {} Distributions}{12}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Choosing a \LaTeX {} Editor}{12}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Your First LaTeX Document: Hello World}{12}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Overview}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Step 1: Create a New \LaTeX {} File}{13}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Explanation of the Code}{13}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Step 2: Compile the Document}{13}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Step 3: View the Output}{13}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Troubleshooting}{14}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Anatomy of a \LaTeX {} Document}{14}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Document Classes (article, report, book, etc.)}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Preamble: Packages and Document Settings}{15}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Loading Packages}{15}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Customizing Document Settings}{15}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Structure: Title, Abstract, Sections, and Paragraphs}{15}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Title and Author Information}{15}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Abstract}{16}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Sections and Subsections}{16}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}Paragraphs and Line Breaks}{16}{subsubsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.4}Complete Example: Basic \LaTeX {} Document}{16}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Typesetting a Manuscript Using the apa7 Class}{17}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Installing the apa7 Class}{17}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Using the apa7 Document Class}{17}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Preamble: Essential Packages for APA Formatting}{18}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Title Page, Abstract, and Main Body}{18}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Explanation of Key Components}{19}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Citations and References}{19}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Formatting and Submissions}{19}{subsection.5.7}%
+\contentsline {part}{II\hspace {1em}Essential \\LaTeX{} Features}{20}{part.2}%
+\contentsline {section}{\numberline {6}Working with Text and Fonts}{20}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Basic Text Formatting: Italics, Bold, and Underlines}{20}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Combining Multiple Styles}{20}{subsubsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.2}Lists (Itemized, Enumerated, and Descriptions)}{20}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Itemized Lists}{21}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Enumerated Lists}{21}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Description Lists}{21}{subsubsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.3}Customizing Fonts and Layout Styles}{21}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Changing the Font Family}{22}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}Changing Font Size}{22}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}Customizing Fonts with Packages}{22}{subsubsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.4}Line Spacing and Paragraph Layout}{22}{subsubsection.6.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.5}Customizing Headers and Footers}{23}{subsubsection.6.3.5}%
+\contentsline {section}{\numberline {7}Including Tables and Figures}{23}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Creating Tables with \texttt {tabular}}{23}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Basic Table Example}{23}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Column Alignment}{24}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Adding Captions and Labels to Tables}{24}{subsubsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.2}Positioning and Captioning Figures}{24}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Including an Image}{24}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Positioning Figures}{25}{subsubsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.3}Referencing Figures and Tables in Text}{25}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.3.1}Using \texttt {\textbackslash autoref} for Automatic Labels}{25}{subsubsection.7.3.1}%
+\contentsline {section}{\numberline {8}Citations and Bibliography Management}{26}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Using \texttt {\textbackslash cite} and \texttt {\textbackslash bibitem} for References}{26}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}Example of thebibliography Environment}{26}{subsubsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.2}Managing References with BibTeX and BibLaTeX}{27}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Creating a .bib File}{27}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Using BibTeX with \LaTeX {}}{27}{subsubsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.3}Using biblatex with Biber}{27}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}Setting Up BibLaTeX and Biber}{28}{subsubsection.8.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.2}Citing References with biblatex}{28}{subsubsection.8.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.3}Printing the Bibliography}{28}{subsubsection.8.3.3}%
+\contentsline {subsection}{\numberline {8.4}Formatting the Bibliography (APA, IEEE, Chicago, etc.)}{28}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Troubleshooting Tips}{29}{subsection.8.5}%
+\contentsline {part}{III\hspace {1em}Formatting Academic Manuscripts}{29}{part.3}%
+\contentsline {section}{\numberline {9}Structuring a Large Document}{29}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Chapter and Sectioning Commands}{29}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Table of Contents, List of Figures, and List of Tables}{30}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Table of Contents}{30}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}List of Figures and List of Tables}{30}{subsubsection.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.3}Updating the Table of Contents, Figures, and Tables}{31}{subsubsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.3}Creating Appendices}{31}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}Using the \texttt {appendix} Command}{31}{subsubsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.2}Using the \texttt {appendices} Environment}{31}{subsubsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.4}Cross-Referencing Chapters, Sections, and Appendices}{31}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Putting It All Together: Complete Example of a Structured Document}{32}{subsection.9.5}%
+\contentsline {section}{\numberline {10}Page Layout and Margins}{33}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Adjusting Page Layout and Headers}{33}{subsection.10.1}%
+\contentsline {subsubsection}{\numberline {10.1.1}Adjusting Margins with the \texttt {geometry} Package}{33}{subsubsection.10.1.1}%
+\contentsline {subsubsection}{\numberline {10.1.2}Customizing Headers and Footers with \texttt {fancyhdr}}{33}{subsubsection.10.1.2}%
+\contentsline {subsection}{\numberline {10.2}Page Numbering Styles}{34}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}Changing Page Numbering Styles}{34}{subsubsection.10.2.1}%
+\contentsline {subsubsection}{\numberline {10.2.2}Starting Page Numbers from a Specific Value}{34}{subsubsection.10.2.2}%
+\contentsline {subsubsection}{\numberline {10.2.3}Suppressing Page Numbers on Some Pages}{34}{subsubsection.10.2.3}%
+\contentsline {subsection}{\numberline {10.3}Title Page and Abstract Layouts}{34}{subsection.10.3}%
+\contentsline {subsubsection}{\numberline {10.3.1}Creating a Title Page}{34}{subsubsection.10.3.1}%
+\contentsline {subsubsection}{\numberline {10.3.2}Customizing the Title Page}{35}{subsubsection.10.3.2}%
+\contentsline {subsubsection}{\numberline {10.3.3}Creating an Abstract}{35}{subsubsection.10.3.3}%
+\contentsline {subsubsection}{\numberline {10.3.4}Creating a Separate Title Page}{35}{subsubsection.10.3.4}%
+\contentsline {section}{\numberline {11}Handling Errors and Debugging}{35}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Common \LaTeX {} Errors and Warnings}{36}{subsection.11.1}%
+\contentsline {subsubsection}{\numberline {11.1.1}Missing or Unmatched Braces}{36}{subsubsection.11.1.1}%
+\contentsline {subsubsection}{\numberline {11.1.2}Undefined Control Sequence}{36}{subsubsection.11.1.2}%
+\contentsline {subsubsection}{\numberline {11.1.3}File Not Found}{36}{subsubsection.11.1.3}%
+\contentsline {subsubsection}{\numberline {11.1.4}Package Conflict or Missing Package}{36}{subsubsection.11.1.4}%
+\contentsline {subsubsection}{\numberline {11.1.5}Overfull or Underfull Boxes}{37}{subsubsection.11.1.5}%
+\contentsline {subsubsection}{\numberline {11.1.6}Bibliography Issues with BibTeX or Biber}{37}{subsubsection.11.1.6}%
+\contentsline {subsection}{\numberline {11.2}Tips for Troubleshooting Compilation Issues}{37}{subsection.11.2}%
+\contentsline {subsubsection}{\numberline {11.2.1}Check the Log File}{37}{subsubsection.11.2.1}%
+\contentsline {subsubsection}{\numberline {11.2.2}Compile Incrementally}{37}{subsubsection.11.2.2}%
+\contentsline {subsubsection}{\numberline {11.2.3}Use an Online Editor (e.g., Overleaf)}{38}{subsubsection.11.2.3}%
+\contentsline {subsubsection}{\numberline {11.2.4}Update \LaTeX {} Distribution and Packages}{38}{subsubsection.11.2.4}%
+\contentsline {subsubsection}{\numberline {11.2.5}Check for Package Conflicts}{38}{subsubsection.11.2.5}%
+\contentsline {subsubsection}{\numberline {11.2.6}Recompile Multiple Times}{38}{subsubsection.11.2.6}%
+\contentsline {subsubsection}{\numberline {11.2.7}Use the \texttt {-interaction=nonstopmode} Option}{38}{subsubsection.11.2.7}%
+\contentsline {subsubsection}{\numberline {11.2.8}Seek Help from the Community}{38}{subsubsection.11.2.8}%
+\contentsline {part}{IV\hspace {1em}Advanced Features}{38}{part.4}%
+\contentsline {section}{\numberline {12}Managing Complex Documents}{39}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Importing External Files with \texttt {\textbackslash input} and \texttt {\textbackslash include}}{39}{subsection.12.1}%
+\contentsline {subsubsection}{\numberline {12.1.1}Using \texttt {\textbackslash input}}{39}{subsubsection.12.1.1}%
+\contentsline {subsubsection}{\numberline {12.1.2}Using \texttt {\textbackslash include}}{39}{subsubsection.12.1.2}%
+\contentsline {subsection}{\numberline {12.2}Cross-Referencing Across Multiple Files}{40}{subsection.12.2}%
+\contentsline {subsubsection}{\numberline {12.2.1}Setting Up Labels and References}{40}{subsubsection.12.2.1}%
+\contentsline {subsubsection}{\numberline {12.2.2}Managing Cross-References with the \texttt {xr} Package}{40}{subsubsection.12.2.2}%
+\contentsline {subsection}{\numberline {12.3}Using Subfiles for Modular Documents}{40}{subsection.12.3}%
+\contentsline {subsubsection}{\numberline {12.3.1}Setting Up the Master Document}{41}{subsubsection.12.3.1}%
+\contentsline {subsubsection}{\numberline {12.3.2}Creating Subfiles}{41}{subsubsection.12.3.2}%
+\contentsline {subsubsection}{\numberline {12.3.3}Advantages of Using Subfiles}{41}{subsubsection.12.3.3}%
+\contentsline {section}{\numberline {13}Advanced Packages for Academics}{42}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Drawing with TikZ for Diagrams}{42}{subsection.13.1}%
+\contentsline {subsubsection}{\numberline {13.1.1}Setting Up TikZ}{42}{subsubsection.13.1.1}%
+\contentsline {subsubsection}{\numberline {13.1.2}Drawing Basic Shapes}{42}{subsubsection.13.1.2}%
+\contentsline {subsubsection}{\numberline {13.1.3}Creating a Flowchart}{42}{subsubsection.13.1.3}%
+\contentsline {subsubsection}{\numberline {13.1.4}Creating Code Listings with the \texttt {listings} Package}{42}{subsubsection.13.1.4}%
+\contentsline {part}{V\hspace {1em}Polishing and Publishing}{43}{part.5}%
+\contentsline {section}{\numberline {14}Customizing \LaTeX {} Output}{43}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Creating Custom Commands and Environments}{43}{subsection.14.1}%
+\contentsline {subsubsection}{\numberline {14.1.1}Creating Custom Commands}{43}{subsubsection.14.1.1}%
+\contentsline {subsubsection}{\numberline {14.1.2}Creating Custom Environments}{44}{subsubsection.14.1.2}%
+\contentsline {subsection}{\numberline {14.2}Styling for Journal Submissions}{44}{subsection.14.2}%
+\contentsline {subsubsection}{\numberline {14.2.1}Using Journal Templates and Document Classes}{44}{subsubsection.14.2.1}%
+\contentsline {subsubsection}{\numberline {14.2.2}Customizing Headers, Footers, and Page Layouts}{45}{subsubsection.14.2.2}%
+\contentsline {subsubsection}{\numberline {14.2.3}Setting Line Spacing and Font Size}{45}{subsubsection.14.2.3}%
+\contentsline {subsubsection}{\numberline {14.2.4}Adding a Title Page and Abstract}{45}{subsubsection.14.2.4}%
+\contentsline {subsubsection}{\numberline {14.2.5}Including a Bibliography with BibLaTeX}{45}{subsubsection.14.2.5}%
+\contentsline {section}{\numberline {15}Exporting and Publishing}{46}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Exporting PDFs and Sharing Documents}{46}{subsection.15.1}%
+\contentsline {subsubsection}{\numberline {15.1.1}Exporting to PDF Using Your Editor}{46}{subsubsection.15.1.1}%
+\contentsline {subsubsection}{\numberline {15.1.2}Exporting from the Command Line}{46}{subsubsection.15.1.2}%
+\contentsline {subsubsection}{\numberline {15.1.3}Sharing Your PDF Document}{47}{subsubsection.15.1.3}%
+\contentsline {subsection}{\numberline {15.2}Preparing for Journal or Conference Submissions}{47}{subsection.15.2}%
+\contentsline {subsubsection}{\numberline {15.2.1}Using Journal or Conference Templates}{47}{subsubsection.15.2.1}%
+\contentsline {subsubsection}{\numberline {15.2.2}Reviewing Guidelines}{47}{subsubsection.15.2.2}%
+\contentsline {subsubsection}{\numberline {15.2.3}Handling Revisions and Resubmissions}{48}{subsubsection.15.2.3}%
+\contentsline {subsection}{\numberline {15.3}Using Overleaf for Collaborative Writing}{48}{subsection.15.3}%
+\contentsline {subsubsection}{\numberline {15.3.1}Creating a Project on Overleaf}{48}{subsubsection.15.3.1}%
+\contentsline {subsubsection}{\numberline {15.3.2}Sharing Your Project with Co-Authors}{48}{subsubsection.15.3.2}%
+\contentsline {subsubsection}{\numberline {15.3.3}Real-Time Collaboration}{48}{subsubsection.15.3.3}%
+\contentsline {subsubsection}{\numberline {15.3.4}Compiling and Exporting in Overleaf}{48}{subsubsection.15.3.4}%
+\contentsline {subsubsection}{\numberline {15.3.5}Integrating Overleaf with GitHub}{48}{subsubsection.15.3.5}%
+\contentsline {section}{\numberline {16}Templates for Common Academic Documents}{49}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Research Paper Template}{49}{subsection.16.1}%
+\contentsline {subsubsection}{\numberline {16.1.1}Basic Research Paper Template}{49}{subsubsection.16.1.1}%
+\contentsline {subsubsection}{\numberline {16.1.2}Explanation}{50}{subsubsection.16.1.2}%
+\contentsline {subsection}{\numberline {16.2}Thesis/Dissertation Template}{50}{subsection.16.2}%
+\contentsline {subsubsection}{\numberline {16.2.1}Basic Thesis/Dissertation Template}{50}{subsubsection.16.2.1}%
+\contentsline {subsubsection}{\numberline {16.2.2}Explanation}{51}{subsubsection.16.2.2}%
+\contentsline {subsection}{\numberline {16.3}Presentation with Beamer}{51}{subsection.16.3}%
+\contentsline {subsubsection}{\numberline {16.3.1}Basic Beamer Presentation Template}{51}{subsubsection.16.3.1}%
+\contentsline {subsubsection}{\numberline {16.3.2}Explanation}{52}{subsubsection.16.3.2}%
+\contentsline {part}{VI\hspace {1em}Using VSCode, Github, and Zotero with \LaTeX }{52}{part.6}%
+\contentsline {section}{\numberline {17}Setting Up VSCode to Use with \LaTeX {}}{53}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Step 1: Install VSCode}{53}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Step 2: Install a LaTeX Distribution}{53}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Step 3: Installing Perl on Windows}{53}{subsection.17.3}%
+\contentsline {subsection}{\numberline {17.4}Step 4: Install the \LaTeX {} Workshop Extension}{54}{subsection.17.4}%
+\contentsline {subsection}{\numberline {17.5}Step 5: Configure the \LaTeX {} Workshop Extension}{55}{subsection.17.5}%
+\contentsline {subsection}{\numberline {17.6}Step 6: Verify the Setup with a Sample Document}{55}{subsection.17.6}%
+\contentsline {subsection}{\numberline {17.7}Step 7: Troubleshooting Common Issues}{56}{subsection.17.7}%
+\contentsline {subsection}{\numberline {17.8}Other Useful Extensions}{56}{subsection.17.8}%
+\contentsline {section}{\numberline {18}Using VSCode with GitHub for \LaTeX {} Projects}{56}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Step 1: Install Git}{56}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}Step 2: Set Up a GitHub Account}{56}{subsection.18.2}%
+\contentsline {subsection}{\numberline {18.3}Step 3: Install the GitHub Extension for VSCode}{56}{subsection.18.3}%
+\contentsline {subsection}{\numberline {18.4}Step 4: Configure Git in VSCode}{57}{subsection.18.4}%
+\contentsline {subsection}{\numberline {18.5}Step 5: Initialize a Git Repository for Your Project}{57}{subsection.18.5}%
+\contentsline {subsection}{\numberline {18.6}Step 6: Push Your Project to GitHub}{57}{subsection.18.6}%
+\contentsline {subsection}{\numberline {18.7}Step 7: Back Up Your Work with Regular Commits}{57}{subsection.18.7}%
+\contentsline {subsection}{\numberline {18.8}Step 8: Collaborate with Others}{58}{subsection.18.8}%
+\contentsline {subsection}{\numberline {18.9}Step 9: Handle Merge Conflicts}{58}{subsection.18.9}%
+\contentsline {section}{\numberline {19}Utilizing Zotero to Manage References and Integrate with LaTeX}{58}{section.19}%
+\contentsline {subsection}{\numberline {19.1}Setting Up Zotero for Reference Management}{58}{subsection.19.1}%
+\contentsline {subsubsection}{\numberline {19.1.1}Installing Zotero}{59}{subsubsection.19.1.1}%
+\contentsline {subsubsection}{\numberline {19.1.2}Adding References to Zotero}{59}{subsubsection.19.1.2}%
+\contentsline {subsection}{\numberline {19.2}Integrating Zotero with Better BibTeX for \LaTeX {}}{59}{subsection.19.2}%
+\contentsline {subsubsection}{\numberline {19.2.1}Installing Better BibTeX}{59}{subsubsection.19.2.1}%
+\contentsline {subsubsection}{\numberline {19.2.2}Creating a .bib File of Your Zotero Library}{59}{subsubsection.19.2.2}%
+\contentsline {subsubsection}{\numberline {19.2.3}Generating a Dynamic .bib File with Auto-Export}{60}{subsubsection.19.2.3}%
+\contentsline {subsection}{\numberline {19.3}Using Zotero-Generated .bib Files in \LaTeX }{60}{subsection.19.3}%
+\contentsline {subsubsection}{\numberline {19.3.1}Adding the .bib File to Your Project}{60}{subsubsection.19.3.1}%
+\contentsline {subsubsection}{\numberline {19.3.2}Citing References in \LaTeX {}}{60}{subsubsection.19.3.2}%
+\contentsline {subsubsection}{\numberline {19.3.3}Compiling Your Document with Biber}{60}{subsubsection.19.3.3}%
+\contentsline {subsection}{\numberline {19.4}Troubleshooting Zotero-LaTeX Integration}{61}{subsection.19.4}%
+\contentsline {section}{\numberline {A}Additional Resources}{62}{appendix.1.A}%
