@@ -1,2 +1,1 @@
-# adultlearninglatex
-This is a repository of LaTeX templates and other files (e.g., VSCode settings) for various publishing styles within the field of Adult Learning and Continuing Education. 
+This is a repository of LaTeX templates and other files (e.g., VSCode settings) for various publishing styles within the field of Adult Learning and Continuing Education. I'm currently pursuing a Ph.D. in Adult Learning and Leadership at Kansas State University and thought I would share the various templates that I use to format my essays and manuscripts for the program as well as for submission to journals and conference proceedings. 
