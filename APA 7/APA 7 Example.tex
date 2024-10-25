@@ -1,0 +1,44 @@
+\PassOptionsToPackage{hidelinks}{hyperref}
+% !TEX TS-program = pdflatexmk
+\documentclass[man, 12pt]{apa7} %Defines this as a document that will use the APA 7th edition style, it is a manuscript and uses 12pt font.
+\usepackage[american]{babel} %Defines the use of American English.
+\usepackage{fontspec} 
+\usepackage{lipsum}  %Used for dummy text.
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib} 
+
+\title{Example Title }
+\shorttitle{Short Title}
+
+\author{Author Name}
+
+\affiliation{Univeristy
+}
+
+
+\begin{document}
+
+
+\maketitle
+
+\section{Section}
+
+As \textcite{knowles78} notes, \lipsum[1-5]
+
+\subsection{Sub-section}
+
+\lipsum[1-5] \parencite{knowles78}
+
+
+\begin{quote}
+
+    \lipsum[1-1]
+\end{quote}
+
+\hfill \parencite[p. 2]{knowles78}
+
+
+\printbibliography
+
+\end{document}
