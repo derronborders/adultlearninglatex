@@ -5,3 +5,7 @@ APA 7 - This folder contains "APA 7 Example.tex" and "bibliography.bib" which pr
 LaTeX - This folder contains the files used to create "Typesetting Academic Manuscripts: A Practical Introduction to LaTeX" that I authored to help any academic is interested in learning to use LaTeX.
 
 VSCode - This folder contains the code from my settings.json for those interested in using VSCode to prepare their LaTeX documents.
+
+Awesome Resume - This is an example resume template based on the Awesome-CV tamplate by Claud D. Park (www.posquit0.com).
+
+Awesome CV - This is my current resume that I based off of LianTze Lim's CV template. 
