@@ -1,0 +1,204 @@
+%%%%%%%%%%%%%%%
+% This CV example/template is based on my own
+% CV which I (lamely attempted) to clean up, so that
+% it's less of an eyesore and easier for others to use.
+%
+% LianTze Lim (liantze@gmail.com)
+% 23 Oct, 2022
+%
+
+\RequirePackage{silence}
+\WarningsOff[longtable]
+\WarningsOff[array]
+
+\usepackage{ifxetex,ifluatex}
+\newif\ifxetexorluatex
+\ifxetex
+  \xetexorluatextrue
+\else
+  \ifluatex
+    \xetexorluatextrue
+  \else
+  
+    \xetexorluatexfalse
+  \fi
+\fi
+
+\RequirePackage{graphicx}
+\RequirePackage[hyphens]{url}
+\RequirePackage{babel}
+\raggedright
+
+\RequirePackage[fixed]{fontawesome5}
+
+\newcommand{\smallcaps}[1]{\textsc{\lowercase{#1}}}
+
+\RequirePackage[a4paper,nohead,includefoot,hmargin=2cm,vmargin=1.7cm,footskip=.6cm]{geometry}
+\RequirePackage{relsize}
+\RequirePackage[dvipsnames,svgnames]{xcolor}
+\RequirePackage{tikz}
+\usetikzlibrary{shapes,shadows}
+
+\RequirePackage{comment}
+\definecolor{SwishLineColour}{HTML}{88AC0B}
+\definecolor{MarkerColour}{HTML}{512888}
+
+
+
+
+\definecolor{frontColor}{HTML}{512888}% light blue
+\definecolor{backColor}{RGB}{200,200,200}% grey
+\newcommand{\gradelong}[6]{%
+    \pgfmathtruncatemacro\floored{#1}%
+    \pgfmathsetmacro\diff{#1-\floored}%
+    \newdimen\diffDim%
+    \diffDim = \diff pt%
+    \newdimen\numPointsDim
+    \numPointsDim = #1 pt
+    \newdimen\maxPointsDim%
+    \maxPointsDim = #2 pt%
+    \begin{tikzpicture}
+        \foreach \x in {1, ..., #2}{
+            \ifnum \x > \floored \relax%
+                \def\fillCol{#6}%
+            \else%
+                \def\fillCol{#5}%
+            \fi%
+            \fill[\fillCol] (#3*\x, 0) circle (#4);
+        }%
+        \ifdim \diffDim > 0 pt \relax%
+            \ifdim \numPointsDim > \maxPointsDim \relax%
+            \else%
+                \pgfmathsetmacro\pos{#3*(\floored+1)}%
+                \begin{scope}[xshift=\pos]
+                    \clip (-#4,-#4) rectangle ++(#4*2*\diff,#4*2);
+                    \fill[#5] (0, 0) circle (#4);
+                \end{scope}
+            \fi%
+        \else%
+        \fi%
+    \end{tikzpicture}%
+}
+
+\newcommand{\grade}[1]{%
+    \gradelong%
+    {#1}% grade as floating point value
+    {5}% max number of points
+    {9pt}% spacing between points
+    {3pt}% radius of point
+    {frontColor}% foreground color
+    {backColor}% background color
+}
+
+% If you're not a researcher nor an academic, you probably don't need biblatex; delete this line.
+
+
+\RequirePackage[style=apa, sorting=ymdnt, backend=biber]{biblatex}
+
+
+\DeclareSortingScheme{ymdnt}{
+  \sort{
+    \field{presort}
+  }
+  \sort[final]{
+    \field{sortkey}
+  }
+  \sort[direction=descending]{
+    \field[strside=left,strwidth=4]{sortyear}
+    \field[strside=left,strwidth=4]{year}
+    \literal{9999}
+  }
+  \sort[direction=descending]{
+    \field{month}
+    \literal{9999}
+  }
+  \sort{
+    \field{sortname}
+    \field{author}
+    \field{editor}
+    \field{translator}
+    \field{sorttitle}
+    \field{title}
+  }
+  \sort{
+    \field{sorttitle}
+    \field{title}
+  }
+}
+
+
+
+
+\headerscale{1}
+%\setlength{\headerspace}{6pt}
+\rubricfont{\Large\bfseries\sffamily}
+\setlength{\rubricspace}{2pt}
+%\setlength{\rubricafterspace}{-9pt}
+\setlength{\rubricafterspace}{-3pt}
+\setlength{\subrubricspace}{3pt}
+\setlength{\subrubricbeforespace}{4pt}
+\def\@@rubrichead#1{%
+  \begin{tikzpicture}[baseline]%\
+  \shade[left color=SwishLineColour!60!white, right color=white] rectangle (\@almosttextwidth,2.5pt);
+  \node[font={\@rubricfont},inner sep=0pt,text ragged,anchor=south west,text depth=.5ex,text height=1.5ex] at (1pt,2pt) {#1};
+  \end{tikzpicture}%
+  \vspace\rubricspace%
+}
+
+\subrubricfont{\large\bfseries\sffamily}
+\subrubricalignment{l}
+
+\newcommand{\makefield}[2]{\makebox[1.5em]{\color{MarkerColour!80!black}#1} #2\hspace{2em}}
+
+\keyalignment{r}
+\rubricalignment{l}
+\renewcommand{\arraystretch}{1.25}
+\urlstyle{tt}
+
+\newcommand{\prefixmarker}[1]{\def\@prefixmarker{#1}}
+\def\@prefixmarker{\relscale{.9}\faBookmark}
+
+\prefix{%
+  \hspace*{-1ex}
+  \color{MarkerColour!80!black}\@prefixmarker%
+  \hspace*{1ex}%
+}
+
+\setlength\bibitemsep{1.5\itemsep}
+
+\newcommand{\makerubrichead}[1]{\vskip\baselineskip\@@rubrichead{#1}}
+
+\defbibheading{subbibliography}{\vskip\subrubricbeforespace{\@subrubricfont\hspace{3pt}#1}\par}
+
+\defbibfilter{booksandchapters}{%
+( type=book or type=incollection )
+}
+
+\RequirePackage{pgffor}
+\newcommand{\mynames}[1]{\def\my@namelist{#1}}
+\newtoggle{boldname}
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \global\togglefalse{boldname}%
+  \foreach \my@fname / \my@gname in \my@namelist {%
+    \ifboolexpr{ test {\ifdefstrequal{\namepartfamily}{\my@fname}}
+                 and
+                 test {\ifdefstrequal{\namepartgiven}{\my@gname}}}
+      {\global\toggletrue{boldname}}{}%
+  }%
+  \iftoggle{boldname}{\textbf{#1}}{#1}%
+}
+
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \global\togglefalse{boldname}%
+  \foreach \my@fname / \my@gname in \my@namelist{%
+    \ifboolexpr{ test {\ifdefstrequal{\namepartfamily}{\my@fname}}
+                 and
+                 test {\ifdefstrequal{\namepartgiven}{\my@gname}}}
+      {\global\toggletrue{boldname}\breakforeach}{}%
+  }%
+  \iftoggle{boldname}{\textbf{#1}}{#1}%
+}
+
+
+\RequirePackage[colorlinks=true,allcolors=black,breaklinks=true]{hyperref}
+
