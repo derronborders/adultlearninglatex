@@ -2,7 +2,7 @@ This is a repository of LaTeX templates and other files (e.g., VSCode settings) 
 
 APA 7 - This folder contains "APA 7 Example.tex" and "bibliography.bib" which produces a manuscript in the APA 7th Edition format. Must run XeLaTeX -> Biber -> XeLaTex -> XeLaTeX to produce document.
 
-LaTeX - This folder contains the files used to create "Typesetting Academic Manuscripts: A Practical Introduction to LaTeX" that I authored to help any academic is interested in learning to use LaTeX.
+LaTeX Manual- This folder contains the files used to create "Typesetting Academic Manuscripts: A Practical Introduction to LaTeX" that I authored to help any academic is interested in learning to use LaTeX.
 
 VSCode - This folder contains the code from my settings.json for those interested in using VSCode to prepare their LaTeX documents.
 
